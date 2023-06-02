@@ -11,7 +11,11 @@ module.exports = {
           letterSpacing: '-0.006em',
           fontWeight: '800',
         }],
-      }
+      },
+      colors: {
+        bgColor: "#FCDC4A",
+        accentRed: "#7e0000",
+      },
       
     },
   },
