@@ -5,10 +5,11 @@ import bgWall from "../Assets/wall.webp";
 const Main = () => {
   return (
     <div>
-      <section
+      {/* <section
         className="bg-cover px-3"
         style={{ backgroundImage: "url(" + bgBrick + ")" }}
-      >
+      > */}
+      <section className="bg-bgColor px-3">
         <h1 className="text-7xl flex flex-col px-3">
           HELLO
           <span className="text-right">WORLD</span>
@@ -89,63 +90,155 @@ const Main = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section
+        className="p-3 mt-5 bg-cover "
+        style={{ backgroundImage: "url(" + bgWall + ")" }}
+      > */}
+      <section className="p-3 mt-5 bg-bgColor ">
         <h2 className="text-4xl">Skills</h2>
-        <h3 className="text-2xl">Language</h3>
-        <div class="carousel rounded-box">
-          <div class="carousel-item">
+        <h3 className="text-2xl p-3">Language</h3>
+        <ul className="flex gap-5 overflow-x-auto ">
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 80 }}>
+              HTML
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 70 }}>
+              CSS/SCSS
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 60 }}>
+              JS
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 30 }}>
+              JAVA
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 15 }}>
+              c/c++
+            </div>
+          </li>
+        </ul>
+        <h3 className="text-2xl p-3">Framework</h3>
+        <ul className="flex gap-5 overflow-x-auto">
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 60 }}>
+              React
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 10 }}>
+              Next.js
+            </div>
+          </li>
+        </ul>
+        <h3 className="text-2xl p-3">Database</h3>
+        <ul className="flex gap-5 overflow-x-auto">
+          <li className="">
             <div
-              className="radial-progress text-primary"
-              style={{ "--value": 70 }}
+              className="radial-progress bg-white text-center"
+              style={{ "--value": 60 }}
             >
-              70%
-            </div>{" "}
-          </div>
-          <div class="carousel-item">
-            <img
-              className="object-contain w-40 mx-auto my-0"
-              src={config.top.icon}
-              alt="my icon"
-            />{" "}
-          </div>
-          <div class="carousel-item">
-            <img
-              className="object-contain w-40 mx-auto my-0"
-              src={config.top.icon}
-              alt="my icon"
-            />{" "}
-          </div>
-          <div class="carousel-item">
-            <img
-              className="object-contain w-40 mx-auto my-0"
-              src={config.top.icon}
-              alt="my icon"
-            />{" "}
-          </div>
-          <div class="carousel-item">
-            <img
-              className="object-contain w-40 mx-auto my-0"
-              src={config.top.icon}
-              alt="my icon"
-            />{" "}
-          </div>
-          <div class="carousel-item">
-            <img
-              className="object-contain w-40 mx-auto my-0"
-              src={config.top.icon}
-              alt="my icon"
-            />{" "}
-          </div>
-          <div class="carousel-item">
-            <img
-              className="object-contain w-40 mx-auto my-0"
-              src={config.top.icon}
-              alt="my icon"
-            />{" "}
-          </div>
-        </div>
+              MySQL
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white text-sm" style={{ "--value": 70 }}>
+              MongoDB
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white text-sm" style={{ "--value": 40 }}>
+              PostgreSQL
+            </div>
+          </li>
+        </ul>
+        <h3 className="text-2xl p-3">Plathome</h3>
+        <ul className="flex gap-5 overflow-x-auto">
+          <li className="">
+            <div
+              className="radial-progress bg-white text-center"
+              style={{ "--value": 90 }}
+            >
+              Visual Studio
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 80 }}>
+              Figma
+            </div>
+          </li>
+          <li className="">
+            <div className="radial-progress bg-white" style={{ "--value": 70 }}>
+              Adbe XD
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-4xl">Language</h2>
+        <ul>
+          English
+          <li>
+            <progress
+              className="progress progress-warning  w-56"
+              value="70"
+              max="100"
+            ></progress>
+          </li>
+          Japanese
+          <li>
+            <progress
+              className="progress progress-warning w-56"
+              value="100"
+              max="100"
+            ></progress>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-4xl">Interest</h2>
+        
       </section>
     </div>
+  );
+};
+
+const Carousel = () => {
+  return (
+    <ul className="flex gap-5 overflow-x-auto">
+      <li className="">
+        <div className="radial-progress  bg-white" style={{ "--value": 80 }}>
+          HTML
+        </div>
+      </li>
+      <li className="">
+        <div className="radial-progress bg-white" style={{ "--value": 70 }}>
+          CSS/SCSS
+        </div>
+      </li>
+      <li className="">
+        <div className="radial-progress bg-white" style={{ "--value": 60 }}>
+          JS
+        </div>
+      </li>
+      <li className="">
+        <div className="radial-progress bg-white" style={{ "--value": 30 }}>
+          JAVA
+        </div>
+      </li>
+      <li className="">
+        <div className="radial-progress bg-white" style={{ "--value": 15 }}>
+          c/c++
+        </div>
+      </li>
+    </ul>
   );
 };
 
