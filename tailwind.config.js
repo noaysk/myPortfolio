@@ -13,6 +13,7 @@ module.exports = {
         }],
       },
       colors: {
+        fontColor: "#00004A",
         bgColor: "#FCDC4A",
         accentRed: "#7e0000",
       },
