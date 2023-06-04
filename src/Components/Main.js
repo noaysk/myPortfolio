@@ -9,7 +9,7 @@ const Main = () => {
         className="bg-cover px-3"
         style={{ backgroundImage: "url(" + bgBrick + ")" }}
       > */}
-      <section className="bg-bgColor px-3">
+      <section className="bg-bgColor">
         <h1 className="text-7xl flex flex-col px-3">
           HELLO
           <span className="text-right">WORLD</span>
@@ -36,15 +36,36 @@ const Main = () => {
             <li>
               <span>Name</span> <span>Noa Yasukagawa</span>
             </li>
+
             <li>
-              <span>Address</span>
-              <span>394 Whitmore Ave</span>
+              <span>
+                <a className="flex" href={config.socials.Github}>
+                  Github
+                  <img
+                    className="object-contain w-5 ml-1"
+                    src={config.icon.GitHubIcon}
+                    alt="my icon"
+                  />
+                </a>
+              </span>
+              <span>
+                <a href={config.socials.Github}> noaysk</a>
+              </span>
             </li>
             <li>
-              <span>Github</span> <span>noaysk</span>
-            </li>
-            <li>
-              <span>LinkedIn</span> <span>noa-yasukagawa-2270ba1b8</span>
+              <span>
+                <a className="flex" href={config.socials.LinkedIn}>
+                  LinkedIn
+                  <img
+                    className="object-contain w-5 ml-1"
+                    src={config.icon.LinkedInIcon}
+                    alt="my icon"
+                  />
+                </a>
+              </span>
+              <span>
+                <a href={config.socials.LinkedIn}>noa-yasukagawa-2270ba1b8</a>
+              </span>
             </li>
           </ul>
         </div>
@@ -58,29 +79,27 @@ const Main = () => {
               <span>E-mail Address</span> <span>noa.y.michu.zzz@gmail.com</span>
             </li>
             <li>
-              <span>Github</span> <span> </span>
-            </li>
-            <li>
-              <span>LinkedIn</span> <span></span>
+              <span>Address</span>
+              <span>394 Whitmore Ave York, ON M6E 2N4</span>
             </li>
           </ul>
         </div>
       </div>
 
-      <section className="bg-cover px-3">
+      <section className="bg-cover">
         <h2 className="text-4xl">Experiences</h2>
         <ul class="steps steps-vertical">
-          <li data-content="" class="step  step-neutral">
-            Register
+          <li data-content="" class="step  step-neutral ">
+            A graduate of Meguro Seibi Hight School - Tokyo
           </li>
           <li data-content="" class="step step-neutral">
-            Choose plan
-          </li>
-          <li data-content="" class="step step-neutral">
-            Purchase
+            Enroll in Seneca College - Toronto
           </li>
           <li data-content="✓" class="step step-neutral">
-            Receive Product
+            F Co., Ltd. - Tokyo
+          </li>
+          <li data-content="" class="step step-neutral">
+            A graduate of Seneca College - Toronto{" "}
           </li>
         </ul>
         <div className="bg-bgColor p-3">
@@ -94,7 +113,7 @@ const Main = () => {
         className="p-3 mt-5 bg-cover "
         style={{ backgroundImage: "url(" + bgWall + ")" }}
       > */}
-      <section className="p-3 mt-5 bg-bgColor ">
+      <section className="mt-5 bg-bgColor ">
         <h2 className="text-4xl">Skills</h2>
         <h3 className="text-2xl p-3">Language</h3>
         <ul className="flex gap-5 overflow-x-auto ">
@@ -148,12 +167,18 @@ const Main = () => {
             </div>
           </li>
           <li className="">
-            <div className="radial-progress bg-white text-sm" style={{ "--value": 70 }}>
+            <div
+              className="radial-progress bg-white text-sm"
+              style={{ "--value": 70 }}
+            >
               MongoDB
             </div>
           </li>
           <li className="">
-            <div className="radial-progress bg-white text-sm" style={{ "--value": 40 }}>
+            <div
+              className="radial-progress bg-white text-sm"
+              style={{ "--value": 40 }}
+            >
               PostgreSQL
             </div>
           </li>
@@ -184,61 +209,111 @@ const Main = () => {
       <section>
         <h2 className="text-4xl">Language</h2>
         <ul>
-          English
-          <li>
+          <li className="py-3">
+            <span className="text-xl">English</span>
             <progress
-              className="progress progress-warning  w-56"
+              className="progress progress-warning w-56 h-6"
               value="70"
               max="100"
             ></progress>
           </li>
-          Japanese
-          <li>
+          <li className="py-3">
+            <span className="text-xl">Japanese</span>
             <progress
-              className="progress progress-warning w-56"
+              className="progress progress-warning w-56 h-6"
               value="100"
               max="100"
             ></progress>
           </li>
         </ul>
       </section>
+
+    
+
       <section>
         <h2 className="text-4xl">Interest</h2>
-        
+        <ul className="grid grid-cols-3">
+
+
+        <li tabIndex={0} className="collapse text-center">
+        <div className="collapse-title text-xl font-medium p-8">
+          <img className="" src={config.icon.game} alt="my icon" />
+          <span>Game</span>
+        </div>
+        <div className="collapse-content">
+          <p className="w-24">Minecraft, 7days to die, Genshin, Mario Kart</p>
+          <a className="" href={config.socials.Github}>
+                  NOA NOA NOA
+                </a>
+        </div>
+      </li>
+
+      <li tabIndex={0} className="collapse text-center">
+        <div className="collapse-title text-xl font-medium p-8">
+          <img className="" src={config.icon.game} alt="my icon" />
+          <span>Game</span>
+        </div>
+        <div className="collapse-content">
+        <a className="flex" href={config.socials.Github}>
+                  Github
+                  NOA NOA NOA
+                </a>
+        </div>
+      </li>
+     
+
+      <li tabIndex={0} className="collapse text-center">
+        <div className="collapse-title text-xl font-medium pt-6 w-36 pb-3">
+          <img className="" src={config.icon.ae} alt="my icon" />
+          <span>AfterEffects</span>
+        </div>
+        <div className="collapse-content">
+          <Carousel/>
+        </div>
+      </li>
+
+     
+
+          <li className="text-center collapse">
+            <input type="checkbox" />
+            <div className="collapse-title p-8 pb-3">
+              <img className="" src={config.icon.paint} alt="my icon" />
+              <span>paint</span>
+            </div>
+            <div className="collapse-content">
+              <p className="w-24 break-normal"></p>
+            </div>
+          </li>
+
+          <li className="w-16 text-center">
+            <img
+              className="object-contain"
+              src={config.icon.paint}
+              alt="my icon"
+            />
+            <span>paint</span>
+          </li>
+          <li className="w-16 text-center">
+            <img
+              className="object-contain"
+              src={config.icon.guitar}
+              alt="my icon"
+            />
+            <span>guitar</span>
+          </li>
+        </ul>
       </section>
+
+      
     </div>
   );
 };
 
 const Carousel = () => {
   return (
-    <ul className="flex gap-5 overflow-x-auto">
-      <li className="">
-        <div className="radial-progress  bg-white" style={{ "--value": 80 }}>
-          HTML
-        </div>
-      </li>
-      <li className="">
-        <div className="radial-progress bg-white" style={{ "--value": 70 }}>
-          CSS/SCSS
-        </div>
-      </li>
-      <li className="">
-        <div className="radial-progress bg-white" style={{ "--value": 60 }}>
-          JS
-        </div>
-      </li>
-      <li className="">
-        <div className="radial-progress bg-white" style={{ "--value": 30 }}>
-          JAVA
-        </div>
-      </li>
-      <li className="">
-        <div className="radial-progress bg-white" style={{ "--value": 15 }}>
-          c/c++
-        </div>
-      </li>
-    </ul>
+    <a className="flex" href={config.socials.Github}>
+                  NOA NOA NOA
+                </a>
   );
 };
 
