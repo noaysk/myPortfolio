@@ -1,14 +1,33 @@
+import React, { useState } from "react";
+
 import config from "../config";
 import bgBrick from "../Assets/top.webp";
 import bgWall from "../Assets/wall.webp";
 
 const Main = () => {
+
+  const [isShown, setIsShown] = useState(false);
+
+  const handleClick = event => {
+    // 👇️ toggle shown state
+    setIsShown(current => !current);
+
+    // 👇️ or simply set it to true
+    // setIsShown(true);
+  };
   return (
     <div>
-      {/* <section
-        className="bg-cover px-3"
-        style={{ backgroundImage: "url(" + bgBrick + ")" }}
-      > */}
+ <button onClick={handleClick}>Click</button>
+
+{/* 👇️ show elements on click */}
+{isShown && (
+  <div>
+    <h2>Some content here</h2>
+  </div>
+)}
+
+{/* 👇️ show component on click */}
+{isShown && <Box />}
       <section className="bg-bgColor">
         <h1 className="text-7xl flex flex-col px-3">
           HELLO
@@ -309,6 +328,7 @@ const Main = () => {
   );
 };
 
+
 const Carousel = () => {
   return (
     <a className="flex" href={config.socials.Github}>
@@ -316,5 +336,15 @@ const Carousel = () => {
                 </a>
   );
 };
+
+
+
+function Box() {
+  return (
+    <div>
+  <a href={config.socials.LinkedIn}>noa-yasukagawa-2270ba1b8</a>    </div>
+  );
+}
+ 
 
 export default Main;
