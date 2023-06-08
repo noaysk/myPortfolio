@@ -28,3 +28,7 @@ li span {
 li span:first-child {
   font-size: 1.3em;
 }
+
+section{
+  padding: 0.75rem; /* 12px */
+}

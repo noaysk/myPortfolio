@@ -16,9 +16,7 @@ const config = {
         LinkedInIcon: "./assets/LinkedInIcon.webp",
   
         game: "./assets/game.webp",
-        video: "./assets/video.webp",
         ae: "./assets/ae.webp",
-
         manga: "./assets/manga.webp",
         paint: "./assets/paint.webp",
         guitar: "./assets/guitar.webp",
