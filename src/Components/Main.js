@@ -9,11 +9,11 @@ function Main() {
   return (
     <>
       <Top />
-      <Profile />
-      <Experience />
+       <Profile />
+      {/*<Experience />
       <Skills />
       <Language />
-      <Interest />
+      <Interest /> */}
     </>
   );
 }

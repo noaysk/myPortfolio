@@ -5,7 +5,7 @@ const Profile = () => {
     <section className="bg-white p-3">
     <div className="grid grid-rows-1 grid-flow-col gap-1 auto-cols-fr break-words">
       <div className="p-3 bg-bgColor">
-        <h2 className="text-4xl">Profile</h2>
+        <h2 className="">Profile</h2>
         <ul>
           <li>
             <span>Name</span> <span>Noa Yasukagawa</span>
@@ -15,7 +15,7 @@ const Profile = () => {
               <a className="flex" href={config.socials.Github}>
                 Github
                 <img
-                  className="object-contain w-5 ml-1"
+                  className="object-contain w-5 ml-1 xl:w-10"
                   src={config.icon.GitHubIcon}
                   alt="my icon"
                 />
@@ -30,7 +30,7 @@ const Profile = () => {
               <a className="flex" href={config.socials.LinkedIn}>
                 LinkedIn
                 <img
-                  className="object-contain w-5 ml-1"
+                  className="object-contain w-5 ml-1 xl:w-10"
                   src={config.icon.LinkedInIcon}
                   alt="my icon"
                 />
@@ -43,7 +43,7 @@ const Profile = () => {
         </ul>
       </div>
       <div className="p-3 bg-bgColor">
-        <h2 className="text-4xl">Contact</h2>
+        <h2 className="">Contact</h2>
         <ul>
           <li>
             <span>Phone Number</span> <span>+81 080-4443-2875</span>

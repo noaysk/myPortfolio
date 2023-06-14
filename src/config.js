@@ -17,9 +17,9 @@ const config = {
   
         game: "./assets/game.webp",
         ae: "./assets/ae.webp",
-        manga: "./assets/manga.webp",
+        manga: "./assets/g.webp",
         paint: "./assets/paint.webp",
-        guitar: "./assets/guitar.webp",
+        guitar: "./assets/gu.webp",
     },
     socials: {
         Github: "https://github.com/noaysk",
