@@ -30,6 +30,10 @@ module.exports = {
         wall: "url('/src/Assets/wall.png')",
         wall1: "url('/src/Assets/w1.webp')",
         wall2: "url('/src/Assets/w2.webp')",
+        frame1: "url('/src/Assets/frame1.jpg')",
+        frame2: "url('/src/Assets/frame2.jpg')",
+        frame3: "url('/src/Assets/frame3.jpg')",
+
       },
     },
   },
