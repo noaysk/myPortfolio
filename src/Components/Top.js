@@ -6,7 +6,7 @@ const Top = () => {
       <h1 className="flex flex-col px-3 text-7xl xl:flex-row xl:hidden">
         HELLO<span className="text-right ">WORLD</span>
       </h1>
-      <div className="xl:p-36">
+      <div className="">
         <img
           className="object-contain w-2/5 float-right xl:w-[500px]"
           src={config.top.bubble}
