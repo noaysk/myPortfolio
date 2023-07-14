@@ -15,10 +15,10 @@ const config = {
         GitHubIcon: "./assets/GitHubIcon.webp",
         LinkedInIcon: "./assets/LinkedInIcon.webp",
   
-        game: "./assets/game.webp",
-        ae: "./assets/ae.webp",
-        manga: "./assets/g.webp",
-        paint: "./assets/paint.webp",
+        game: "./assets/mario.jpg",
+        ae: "./assets/ae.jpg",
+        manga: "./assets/luffy.jpg",
+        paint: "./assets/pter.jpg",
         guitar: "./assets/gu.webp",
     },
     socials: {
