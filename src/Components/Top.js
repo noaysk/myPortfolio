@@ -8,7 +8,7 @@ const Top = () => {
       </h1>
       <div className="">
         <img
-          className="object-contain w-2/5 float-right xl:w-[500px]"
+          className="object-contain w-2/5 float-right xl:w-[500px] xl:mr-10 xl:mt-10"
           src={config.top.bubble}
           alt="My introduction"
         />

@@ -7,19 +7,19 @@ const Interest = () => {
         <h2 className="text-4xl">Interest</h2>
 
         <ul className="grid grid-cols-3">
-          <li>
+          <li className="justify-self-center p-4">
             <Item title="game" image={config.icon.game} />
           </li>
-          <li>
+          <li className="justify-self-center p-4">
             <Item title="ae" image={config.icon.ae} />
           </li>
-          <li>
+          <li className="justify-self-center p-4">
             <Item title="manga" image={config.icon.manga} />
           </li>
-          <li>
+          <li className="justify-self-center p-4"> 
             <Item title="paint" image={config.icon.paint} />
           </li>
-          <li>
+          <li className="justify-self-center p-4">
             <Item title="guitar" image={config.icon.guitar} />
           </li>
         </ul>
@@ -35,9 +35,9 @@ const Item = ({ title, image }) => {
   };
 
   return (
-    <div>
+    <div className="">
       <button onClick={() => handleClick(title)}>
-        <img className="w-20" src={image} alt="my icon" />
+        <img className="" src={image} alt="my icon" />
 
         <h3> {title}</h3>
       </button>

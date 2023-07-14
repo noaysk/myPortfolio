@@ -1,9 +1,9 @@
 const Experience = () => {
   return (
-    <section className="bg-cover xl:px-36 ">
+    <section className="bg-cover">
       <h2 className="text-4xl">Experiences</h2>
       <div className="xl:flex">
-        <ul className="steps steps-vertical">
+        <ul className="steps steps-vertical xl:px-5">
           <li data-content="" className="step step-neutral ">
             A graduate of Meguro Seibi High School
           </li>
@@ -18,7 +18,7 @@ const Experience = () => {
           </li>
         </ul>
 
-        <div className="bg-flame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:my-0 xl:ml-0 xl:mr-auto">
+        <div className="bg-frame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:mt-0 xl:my-0 xl:mr-0 xl:ml-auto">
           <div className=" xl:pt-[100px] xl:pl-[100px]">
             <h3 className="text-2xl">Seneca College </h3>
             <p>Computer Programming Diploma (CPP)</p>

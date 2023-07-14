@@ -10,10 +10,10 @@ function Main() {
     <>
       <Top />
        <Profile />
-      {/*<Experience />
+      <Experience />
       <Skills />
       <Language />
-      <Interest /> */}
+     <Interest />
     </>
   );
 }

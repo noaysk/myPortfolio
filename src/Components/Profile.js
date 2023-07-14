@@ -2,9 +2,9 @@ import config from "../config";
 
 const Profile = () => {
   return (
-    <section className="bg-white p-3 xl:px-20 xl:py-10">
+    <section className="bg-white p-3 xl:py-10">
       
-      <div className="flex flex-col w-full lg:flex-row">
+      <div className="flex flex-col w-full xl:grid grid-pro">
         <div className="grid flex-grow  place-items-center">
           <div className="p-3 w-[300px] xl:w-fit xl:p-20">
             <h2 className="">Profile</h2>
@@ -45,7 +45,7 @@ const Profile = () => {
             </ul>
           </div>
         </div>
-        <div className="divider lg:divider-horizontal">AND</div>
+        <div className="divider lg:divider-horizontal lg:justify-self-center">AND</div>
         <div className="grid flex-grow  place-items-center">
         <div className="p-3 w-[300px] xl:w-fit xl:p-20">
           <h2 className="">Contact</h2>
