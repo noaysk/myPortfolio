@@ -25,12 +25,10 @@ const Experience = () => {
           whileInView="visible"
           viewport={{ once: true }}
           onViewportEnter={(entry) => {
-            document.querySelector('.opacityAnimation').classList.add('opacityAnimationStart')
-
-            
+            document.querySelector('.opacityAnimation').classList.add('opacityAnimationStart') 
           }}
         />
-        <div className=" opacityAnimation bg-frame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:mt-0 xl:my-0 xl:mr-0 xl:ml-auto">
+        <div className="opacityAnimation bg-frame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:mt-0 xl:my-0 xl:mr-0 xl:ml-auto">
           <div className="w-[256px] my-o mx-auto xl:pt-[100px] xl:pl-[65px] xl:w-[450px]">
             <h3 className="text-2xl pb-0">F Co., Ltd. (Programmer) </h3>
             <h4 className="text-xl pb-3">November 2021 to May 2023</h4>

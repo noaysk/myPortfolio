@@ -30,6 +30,8 @@ module.exports = {
       },
       backgroundImage: {
         wall: "url('/src/Assets/wall.png')",
+        frame1: "url('/src/Assets/f1.png')",
+
       },
     },
   },
