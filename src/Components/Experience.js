@@ -11,7 +11,7 @@ const Experience = () => {
             A graduate of Meguro Seibi High School
           </li>
           <li data-content="" className="step step-neutral">
-            Enroll in Seneca College - Toronto
+            Enrolled at Seneca College - Toronto
           </li>
           <li data-content="✓" className="step step-neutral">
             F Co., Ltd. - Tokyo
