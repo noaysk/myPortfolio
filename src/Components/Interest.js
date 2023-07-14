@@ -8,19 +8,19 @@ const Interest = () => {
 
         <ul className="grid grid-cols-3">
           <li className="justify-self-center p-4">
-            <Item title="game" image={config.icon.game} />
+            <Item title="Game" image={config.icon.game} />
           </li>
           <li className="justify-self-center p-4">
-            <Item title="ae" image={config.icon.ae} />
+            <Item title="AfterEffects" image={config.icon.ae} />
           </li>
           <li className="justify-self-center p-4">
-            <Item title="manga" image={config.icon.manga} />
+            <Item title="Anime" image={config.icon.manga} />
           </li>
           <li className="justify-self-center p-4"> 
-            <Item title="paint" image={config.icon.paint} />
+            <Item title="Paint" image={config.icon.paint} />
           </li>
           <li className="justify-self-center p-4">
-            <Item title="guitar" image={config.icon.guitar} />
+            <Item title="Guitar" image={config.icon.guitar} />
           </li>
         </ul>
       </section>
@@ -35,37 +35,36 @@ const Item = ({ title, image }) => {
   };
 
   return (
-    <div className="">
+    <div className="xl:w-56">
       <button onClick={() => handleClick(title)}>
         <img className="" src={image} alt="my icon" />
 
         <h3> {title}</h3>
       </button>
 
-      {isShown.game && (
+      {isShown.Game && (
         <div>
-          <h4>Minecraft</h4>
+          <a href={config.socials.twitch}>Me and my friend stream with Twitch sometimes</a>
         </div>
       )}
-      {isShown.ae && (
+      {isShown.AfterEffects && (
         <div>
-          <h4>Youtube</h4>
-          <a href={config.socials.youtube}>My youtube channel</a>{" "}
+          <a href={config.socials.youtube}>My youtube channel noaysk</a>
         </div>
       )}
-      {isShown.manga && (
+      {isShown.Anime && (
         <div>
-          <h4>List</h4>
+          <a href={config.socials.myAnimeList}>My Anime List</a>
         </div>
       )}
-      {isShown.paint && (
+      {isShown.Paint && (
         <div>
-          <h4>MySite</h4>
+          <h4>I'm in the process of creating a page</h4>
         </div>
       )}
-      {isShown.guitar && (
+      {isShown.Guitar && (
         <div>
-          <h4>{title}</h4>
+          <h4>just for fun</h4>
         </div>
       )}
     </div>

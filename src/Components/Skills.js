@@ -129,7 +129,13 @@ const Framework = () => {
       <h3 className="text-2xl p-3">Framework</h3>
       <ul className="flex gap-5 xl:gap-16 overflow-x-auto xl:p-5">
         <li className="">
-          <div className="radial-progress-40">React</div>
+          <div className="radial-progress-50">React</div>
+        </li>
+        <li className="">
+          <div className="radial-progress-30">Vue</div>
+        </li>
+        <li className="">
+          <div className="radial-progress-40">Angular</div>
         </li>
         <li className="">
           <div className="radial-progress-10">Next.js</div>

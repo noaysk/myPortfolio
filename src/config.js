@@ -9,6 +9,7 @@ const config = {
 
     },
     icon:{
+        a: "./assets/a.jpg",
 
         GitHub: "./assets/GitHub.webp",
         LinkedIn: "./assets/LinkedIn.webp",
@@ -25,10 +26,12 @@ const config = {
         Github: "https://github.com/noaysk",
         LinkedIn: "https://www.linkedin.com/in/noa-yasukagawa-2270ba1b8/",
 
-        youtube: "https://www.youtube.com",
+        youtube: "https://www.youtube.com/@noaysk5702",
         instagram: "https://www.instagram.com",
         twitter: "https://www.twitter.com",
         tiktok: "",
+        myAnimeList:"https://myanimelist.net/animelist/noa99ss?",
+        twitch:"https://www.twitch.tv/zombiyori"
       },
   
   };

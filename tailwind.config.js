@@ -24,16 +24,12 @@ module.exports = {
       colors: {
         fontColor: "#00004A",
         bgColor: "#FCDC4A",
+        bgColorW: "#FFE27A",
+        bgColorS: "#FFC700",
         accentRed: "#7e0000",
       },
       backgroundImage: {
         wall: "url('/src/Assets/wall.png')",
-        wall1: "url('/src/Assets/w1.webp')",
-        wall2: "url('/src/Assets/w2.webp')",
-        flame1: "url('/src/Assets/flame1.jpg')",
-        flame2: "url('/src/Assets/flame2.jpg')",
-        flame3: "url('/src/Assets/flame3.jpg')",
-
       },
     },
   },
