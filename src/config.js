@@ -33,7 +33,13 @@ const config = {
         myAnimeList:"https://myanimelist.net/animelist/noa99ss?",
         twitch:"https://www.twitch.tv/zombiyori"
       },
-  
+  works:{
+    cb1: "./assets/cb1-1.png",
+    cb11: "./assets/cb1-2.png",
+    cb2: "./assets/cb2-1.png",
+    cb21: "./assets/cb2-2.png",
+  },
+
   };
   
   export default config;

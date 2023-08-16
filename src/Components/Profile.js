@@ -51,14 +51,10 @@ const Profile = () => {
           <h2 className="">Contact</h2>
           <ul>
             <li>
-              <span>Phone Number</span> <span>+1 437-4600-479</span>
+              <span>Phone Number</span> <span>+1 437-460-0479</span>
             </li>
             <li>
               <span>E-mail Address</span> <span>noa.y.michu.zzz@gmail.com</span>
-            </li>
-            <li>
-              <span>Address</span>
-              <span>394 Whitmore Ave York, ON M6E 2N4</span>
             </li>
           </ul>
         </div>
