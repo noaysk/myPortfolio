@@ -22,6 +22,36 @@ const Works = () => {
             alt="coupon bank1"
           />
         </div>
+        <div>
+          <h4>Sugoroku Game</h4>
+          <img
+            className="object-contain"
+            src={config.works.sugoroku}
+            alt="coupon bank1"
+          />
+        </div>
+      </div>
+      <div className="divider"></div>
+
+        <h3>Practice</h3>
+        <div className="grid grid-cols-2 gap-4">
+
+        <div>
+          <h4>Todo App(Next.js)</h4>
+          <img
+            className="object-contain"
+            src={config.works.todo}
+            alt="coupon bank1"
+          />
+        </div>
+        <div>
+          <h4>Design(UI)</h4>
+          <img
+            className="object-contain"
+            src={config.works.leader}
+            alt="coupon bank1"
+          />
+        </div>
       </div>
     </section>
   );
