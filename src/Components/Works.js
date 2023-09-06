@@ -29,6 +29,13 @@ const Works = () => {
             src={config.works.sugoroku}
             alt="coupon bank1"
           />
+        </div><div>
+          <h4>School site</h4>
+          <img
+            className="object-contain"
+            src={config.works.sowers}
+            alt="school site"
+          />
         </div>
       </div>
       <div className="divider"></div>

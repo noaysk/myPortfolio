@@ -36,6 +36,8 @@ const config = {
     sugoroku: "./assets/sugoroku.png",
     leader: "./assets/leader.png",
     todo: "./assets/todo.png",
+    sowers: "./assets/sowers.png",
+
   },
 };
 
