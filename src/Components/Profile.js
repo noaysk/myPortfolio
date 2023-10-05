@@ -14,7 +14,7 @@ const Profile = () => {
               </li>
               <li>
                 <span>
-                  <a className="flex" href={config.socials.Github}>
+                  <a className="flex" href={config.socials.Github} target="_blank" rel="noreferrer">
                     Github
                     <img
                       className="object-contain w-5 ml-1 xl:w-10"
@@ -24,12 +24,12 @@ const Profile = () => {
                   </a>
                 </span>
                 <span>
-                  <a href={config.socials.Github}> noaysk</a>
+                  <a href={config.socials.Github} target="_blank" rel="noreferrer"> noaysk</a>
                 </span>
               </li>
               <li>
                 <span>
-                  <a className="flex" href={config.socials.LinkedIn}>
+                  <a className="flex" href={config.socials.LinkedIn} target="_blank" rel="noreferrer">
                     LinkedIn
                     <img
                       className="object-contain w-5 ml-1 xl:w-10"
@@ -39,7 +39,7 @@ const Profile = () => {
                   </a>
                 </span>
                 <span>
-                  <a href={config.socials.LinkedIn}>noa-yasukagawa-2270ba1b8</a>
+                  <a href={config.socials.LinkedIn} target="_blank" rel="noreferrer">noayasukagawa</a>
                 </span>
               </li>
             </ul>

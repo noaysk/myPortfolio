@@ -31,12 +31,11 @@ const Experience = () => {
         <div className="opacityAnimation bg-frame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:my-0 xl:mx-auto">
           <div className="w-[256px] my-o mx-auto xl:pt-[100px] xl:pl-[65px] xl:w-[450px]">
             <h3 className="text-2xl pb-0">F Co., Ltd. (Programmer) </h3>
-            <h4 className="text-xl pb-3">November 2021 to May 2023</h4>
+            <h4 className="text-xl pb-3">November 2021 to Jun 2023</h4>
             <p>
-              Focusing on UI design and coding using SCSS or React. I also
-              participated in projects that involved coding with Java's Spring
-              Boot. I have experience conducting both unit tests and integration
-              tests.
+            F CO. is an consultant company who implements applications for various clients.
+            I have participated in multiple projects remotely from Canada, sometimes on site at
+            Japan during summer vacation.
             </p>
           </div>
         </div>

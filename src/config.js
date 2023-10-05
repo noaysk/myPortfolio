@@ -21,7 +21,7 @@ const config = {
   },
   socials: {
     Github: "https://github.com/noaysk",
-    LinkedIn: "https://www.linkedin.com/in/noa-yasukagawa-2270ba1b8/",
+    LinkedIn: "https://www.linkedin.com/in/noayasukagawa/",
 
     youtube: "https://www.youtube.com/@noaysk5702",
     instagram: "https://www.instagram.com",
