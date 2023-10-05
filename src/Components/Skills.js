@@ -104,16 +104,16 @@ const Languages = () => {
       <h3 className="text-2xl p-3">Language</h3>
       <ul className="flex gap-5 xl:gap-16 overflow-x-auto xl:p-5">
         <li className="">
-          <div className="radial-progress-80">HTML</div>
+          <div className="radial-progress-90">HTML</div>
         </li>
         <li className="">
-          <div className="radial-progress-70">CSS/SCSS</div>
+          <div className="radial-progress-90">CSS/SCSS</div>
         </li>
         <li className="">
-          <div className="radial-progress-50">JS</div>
+          <div className="radial-progress-80">JS</div>
         </li>
         <li className="">
-          <div className="radial-progress-20">JAVA</div>
+          <div className="radial-progress-60">JAVA</div>
         </li>
         <li className="">
           <div className="radial-progress-10">c/c++</div>
@@ -129,7 +129,7 @@ const Framework = () => {
       <h3 className="text-2xl p-3">Framework</h3>
       <ul className="flex gap-5 xl:gap-16 overflow-x-auto xl:p-5">
         <li className="">
-          <div className="radial-progress-50">React</div>
+          <div className="radial-progress-80">React</div>
         </li>
         <li className="">
           <div className="radial-progress-30">Vue</div>
@@ -138,7 +138,7 @@ const Framework = () => {
           <div className="radial-progress-40">Angular</div>
         </li>
         <li className="">
-          <div className="radial-progress-10">Next.js</div>
+          <div className="radial-progress-60">Next.js</div>
         </li>
       </ul>
     </div>
