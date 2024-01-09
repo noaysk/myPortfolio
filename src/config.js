@@ -37,6 +37,8 @@ const config = {
     leader: "./assets/leader.png",
     todo: "./assets/todo.png",
     sowers: "./assets/sowers.png",
+    shopping: "./assets/shopping1.png",
+    game313: "./assets/3131.png",
 
   },
 };

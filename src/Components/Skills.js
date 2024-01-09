@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <section className="mt-5 bg-bgColor ">
+    <section className="mt-5 bg-bgColor text-cyan-950">
       <h2 className="text-4xl">Skills</h2>
       <motion.div
         initial="hidden"

@@ -2,7 +2,7 @@ import config from "../config";
 
 const Profile = () => {
   return (
-    <section className="bg-white p-3 xl:py-10">
+    <section className="bg-white text-cyan-950 p-3 xl:py-10">
       
       <div className="flex flex-col w-full xl:grid grid-pro">
         <div className="grid flex-grow  place-items-center">

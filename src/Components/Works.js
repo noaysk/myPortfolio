@@ -2,7 +2,7 @@ import config from "../config";
 
 const Works = () => {
   return (
-    <section className="">
+    <section className="bg-bgBColor text-textBColor">
       <h2 className="text-4xl">My Works</h2>
       <h3>F Co., Ltd.</h3>
       <ul className="grid grid-cols-2 gap-4">
@@ -104,6 +104,37 @@ const Works = () => {
             <div class="item__text">
               <ul>
                 <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <h4>WebApp (Node.js)</h4>
+          <div className="item">
+            <img
+              className="object-contain"
+              src={config.works.shopping}
+              alt="shopping"
+            />
+            <div class="item__text">
+              <ul>
+                <li>Node.js</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <h4>313 Game Record (Next.js, Supabase)</h4>
+          <div className="item">
+            <img
+              className="object-contain"
+              src={config.works.game313}
+              alt="313 game"
+            />
+            <div class="item__text">
+              <ul>
+              <li>Next.js</li>
+              <li>Supabase</li>
               </ul>
             </div>
           </div>

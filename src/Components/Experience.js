@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <section className="bg-cover">
+    <section className="bg-cover bg-bgBColor text-textBColor">
       <h2 className="text-4xl">Experiences</h2>
       <div className="xl:flex">
         <ul className="steps steps-vertical xl:px-5">
@@ -28,7 +28,7 @@ const Experience = () => {
             document.querySelector('.opacityAnimation').classList.add('opacityAnimationStart') 
           }}
         />
-        <div className="opacityAnimation bg-frame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:my-0 xl:mx-auto">
+        <div className="opacityAnimation bg-frame1 bg-no-repeat bg-contain w-[350px] bg-center px-3 py-12 xl:w-[500px] xl:my-0 xl:mx-auto text-cyan-950">
           <div className="w-[256px] my-o mx-auto xl:pt-[100px] xl:pl-[65px] xl:w-[450px]">
             <h3 className="text-2xl pb-0">F Co., Ltd. (Programmer) </h3>
             <h4 className="text-xl pb-3">November 2021 to Jun 2023</h4>

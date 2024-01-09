@@ -24,6 +24,8 @@ module.exports = {
       colors: {
         fontColor: "#00004A",
         bgColor: "#FCDC4A",
+        bgBColor: "#1D232A",
+        textBColor: "#A2ACBA",
         bgColorW: "#FFE27A",
         bgColorS: "#FFC700",
         accentRed: "#7e0000",

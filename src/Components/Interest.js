@@ -3,7 +3,7 @@ import config from "../config";
 
 const Interest = () => {
   return (
-  <section>
+  <section className="bg-white text-cyan-950">
         <h2 className="text-4xl">Interest</h2>
 
         <ul className="grid grid-cols-3">
