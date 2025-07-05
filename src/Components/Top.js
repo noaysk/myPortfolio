@@ -7,11 +7,15 @@ const Top = () => {
         HELLO<span className="text-right ">WORLD</span>
       </h1>
       <div className="">
+      <div className="">
+      <div></div>
+      <div></div>
         <img
-          className="object-contain w-2/5 float-right xl:w-[500px] xl:mr-10 xl:mt-10"
+          className="object-contain w-2/5 float-right xl:w-[500px] xl:mr-10 xl:mt-10 "
           src={config.top.bubble}
           alt="My introduction"
         />
+        </div>
         <img
           className="object-contain w-80 mx-auto my-0 xl:w-[800px] xl:absolute xl:bottom-10 xl:left-0 xl:right-0"
           src={config.top.icon}

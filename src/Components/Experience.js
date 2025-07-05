@@ -27,10 +27,12 @@ const Experience = () => {
           whileInView="visible"
           viewport={{ once: true }}
           onViewportEnter={(entry) => {
-            document
-              .querySelector(".opacityAnimation")
-              .classList.add("opacityAnimationStart");
-          }}
+  const target = document.querySelector(".opacityAnimation");
+  if (target) {
+    target.classList.add("opacityAnimationStart");
+  }
+}}
+
         />
         <div className="bg-bgColor rounded-lg p-2  text-cyan-950">
           <div className="w-[256px] my-o mx-auto p-5 xl:w-[450px]">
