@@ -39,7 +39,7 @@ const config = {
     sowers: "./assets/sowers.png",
     shopping: "./assets/shopping1.png",
     game313: "./assets/3131.png",
-
+    inventory: "./assets/inventory.png",
   },
 };
 

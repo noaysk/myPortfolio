@@ -75,6 +75,7 @@ const Works = () => {
       </ul>
 
       <div className="divider"></div>
+      
       <h3>Practice</h3>
 
       <ul className="grid grid-cols-2 gap-4">
@@ -139,6 +140,23 @@ const Works = () => {
             </div>
           </div>
         </li>
+<li>
+          <h4>Inventory management (React, firebase)</h4>
+          <div className="item">
+            <img
+              className="object-contain"
+              src={config.works.inventory}
+              alt="Inventory management"
+            />
+            <div class="item__text">
+              <ul>
+              <li>React</li>
+              <li>firebase</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
       </ul>
     </section>
   );
