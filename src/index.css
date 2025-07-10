@@ -592,10 +592,7 @@ section {
     font-size: 1.5rem;
   }
 
-  section {
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
+ 
   li span:first-child {
     font-size: 2em;
   }
